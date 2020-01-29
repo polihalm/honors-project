@@ -1,0 +1,29 @@
+{
+  "name": "honors-project",
+  "version": "1.0.0",
+  "description": "Front-End Web UI Frameworks and Tools: Bootstrap 4 Honors Assignment @ Coursera",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polihalm/honors-project.git"
+  },
+  "author": "Polina Halmetoja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polihalm/honors-project/issues"
+  },
+  "homepage": "https://github.com/polihalm/honors-project#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
