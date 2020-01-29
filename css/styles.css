@@ -1,12 +1,7 @@
 .jumbotron {
- height: 800px;
- background-color: white;
-}
-
- .display-3 {
-   margin-top: 200px;
- }
-
- .img-thumbnail {
-   margin-top: 120px;
- }
+  height: 800px;
+  background-color: white; }
+  .jumbotron .display-3 {
+    margin-top: 200px; }
+  .jumbotron img {
+    margin-top: 120px; }
