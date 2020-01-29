@@ -1,1 +1,12 @@
+.jumbotron {
+ height: 800px;
+ background-color: white;
+}
 
+ .display-3 {
+   margin-top: 200px;
+ }
+
+ .img-thumbnail {
+   margin-top: 120px;
+ }
