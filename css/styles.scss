@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+$website-font-family: 'Poppins', sans-serif;
+
 $blue: #58b7e6;
 $lt-blue: #bad9eb;
 $purple: #352c81;
 
+body {
+  font-family: $website-font-family;
+}
 .navbar {
   background-color: white;
 
