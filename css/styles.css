@@ -1,12 +1,14 @@
-.navbar-nav button {
-  background-color: #352c81;
-  border-color: #352c81; }
+.navbar {
+  background-color: white; }
+  .navbar .navbar-nav button {
+    background-color: #352c81;
+    color: white;
+    border-color: #352c81; }
 
 .jumbotron {
-  height: 800px;
+  margin-top: 60px;
+  height: 700px;
   background-color: white; }
-  .jumbotron .display-3 {
-    margin-top: 200px; }
   .jumbotron img {
-    margin-top: 120px;
+    padding-top: 60px;
     border-color: white; }
