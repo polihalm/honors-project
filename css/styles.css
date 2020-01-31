@@ -10,9 +10,20 @@ body {
     border-color: #352c81; }
 
 .jumbotron {
-  margin-top: 60px;
+  padding-top: 100px;
   height: 700px;
   background-color: white; }
   .jumbotron img {
     padding-top: 60px;
     border-color: white; }
+
+.row-content {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .row-content img {
+    height: 300px;
+    border-color: white; }
+  .row-content button {
+    background-color: #352c81;
+    color: white;
+    border-color: #352c81; }
