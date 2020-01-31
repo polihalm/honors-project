@@ -6,6 +6,11 @@ $blue: #58b7e6;
 $lt-blue: #bad9eb;
 $purple: #352c81;
 
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+	margin:0px auto;
+	padding: $pad-up-dn $pad-left-right;
+}
+
 body {
   font-family: $website-font-family;
 }
@@ -25,9 +30,15 @@ body {
 }
 
 .jumbotron {
+
   padding-top: 100px;
   height: 700px;
   background-color: white;
+
+  .display-4 {
+    color: $purple;
+    font-weight: bolder;
+  }
 
   img {
     padding-top: 60px;
@@ -37,8 +48,10 @@ body {
 }
 
 .row-content {
- margin-top: 100px;
- margin-bottom: 100px;
+
+ @include zero-margin(50px,0px);
+ border-bottom: 1px ridge;
+ min-height:400px;
 
   img {
   height: 300px;
@@ -51,4 +64,16 @@ body {
   border-color: $purple;
   }
 
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: $lt-blue;
 }
