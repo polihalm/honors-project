@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-
-$website-font-family: 'Poppins', sans-serif;
-
 $blue: #58b7e6;
 $lt-blue: #bad9eb;
 $purple: #352c81;
@@ -9,10 +5,6 @@ $purple: #352c81;
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
 	margin:0px auto;
 	padding: $pad-up-dn $pad-left-right;
-}
-
-body {
-  font-family: $website-font-family;
 }
 
 .navbar {
