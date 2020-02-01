@@ -27,6 +27,7 @@ body {
     }
 
   }
+
 }
 
 .jumbotron {
@@ -56,7 +57,7 @@ body {
   img {
   height: 300px;
   border-color: white;
-}
+  }
 
   button {
   background-color: $purple;
@@ -64,14 +65,14 @@ body {
   border-color: $purple;
   }
 
-}
+  h2 {
+    margin-bottom: 20px;
+  }
 
-h2 {
-  margin-bottom: 20px;
-}
+  textarea {
+    margin-bottom: 20px;
+  }
 
-textarea {
-  margin-bottom: 20px;
 }
 
 footer {

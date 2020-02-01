@@ -32,12 +32,10 @@ body {
     background-color: #352c81;
     color: white;
     border-color: #352c81; }
-
-h2 {
-  margin-bottom: 20px; }
-
-textarea {
-  margin-bottom: 20px; }
+  .row-content h2 {
+    margin-bottom: 20px; }
+  .row-content textarea {
+    margin-bottom: 20px; }
 
 footer {
   background-color: #bad9eb; }
