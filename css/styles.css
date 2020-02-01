@@ -32,9 +32,7 @@ body {
     background-color: #352c81;
     color: white;
     border-color: #352c81; }
-  .row-content h2 {
-    margin-bottom: 20px; }
-  .row-content textarea {
+  .row-content h2, .row-content textarea {
     margin-bottom: 20px; }
 
 footer {
