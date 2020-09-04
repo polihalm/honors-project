@@ -23,7 +23,7 @@
   "homepage": "https://github.com/polihalm/honors-project#readme",
   "devDependencies": {
     "lite-server": "^2.5.4",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.2"
   },
